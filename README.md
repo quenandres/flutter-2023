@@ -22,7 +22,7 @@ Esta es una sección introductoria para personas que nunca han tocado Dart en su
 
 El objetivo es darles a ustedes una introducción a Dart para que se sientan cómodos trabajando en el lenguaje, es muy similar a otros, y su curva de aprendizaje no es difícil, pero tengan presente que cada persona aprende a ritmos diferentes.
 
-##### `8. ¿Qué es Dart? - Exposición`
+#### `8. ¿Qué es Dart? - Exposición`
 Es un lenguaje de programación, de lado del cliente optimizado para aplicaciónes.
 - Optimizado para el UI.
   - Todo fue pensado en su creación para trabajar con flutter.
@@ -31,3 +31,19 @@ Es un lenguaje de programación, de lado del cliente optimizado para aplicación
 - Rapido en todas las plataformas (ARM & x64).
 
 Escribimos el codigo de Flutter en Dart, seguimos lineamientos y termina siendo compilado a codigo de movil.
+
+
+#### `9. Hola Mundo - Dart`
+[https://dartpad.dev](https://dartpad.dev)
+
+// Formas de definir variables
+```dart
+var myName = 'Jhonatan'; // Dart infiere el valor de la variable
+String myName = 'Jhonatan'; // Dart toma el valor según la definición
+final myName = 'Jhonatan'; // Funciona similar a una constante pero no es lo mismo.
+late final = 'Jhonatan'; // Late permite decirle a Dart que esa variable tendrá un valor al momento de usarse, es responsabilidad del desarrollador asegurar que eso se cumpla.
+
+const myName = 'Jhonatan ñandú';  
+print('Hola $myName');
+print('Hola ${myName.toUpperCase()}'); // Interpolación de string
+```
