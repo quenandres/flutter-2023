@@ -47,3 +47,24 @@ const myName = 'Jhonatan ñandú';
 print('Hola $myName');
 print('Hola ${myName.toUpperCase()}'); // Interpolación de string
 ```
+
+
+#### `10. Tipos de variables`
+
+```dart
+void main() {
+  final String pokemon = 'Ditto';
+  final int hp = 100;
+  final bool isAlive = true;
+  final List<String> abilities = ['impostor'];
+  final sprites = <String>['ditto/front.png', 'ditto.png'];
+  
+  print("""
+  $pokemon
+  $hp
+  $isAlive
+  $abilities
+  $sprites
+  """);
+}
+```
