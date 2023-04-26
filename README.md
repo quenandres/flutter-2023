@@ -75,3 +75,28 @@ Se debe evitar usar el tipo dinamico, pero se debe encontrar un balance para uti
 Por defecto es null.
 el nullsafety es dart diciendo si una variable puede ser nula o no.
 
+
+#### `12. Maps`
+```dart
+void main() {
+  final Map<String, dynamic>pokemon = {
+    'name': 'Ditto',
+    'hp': 100,
+    'isAlive': true,
+    'abilities': <String>['emulation'],
+    'sprites': {
+      1: 'front_ditto.png',
+      2: 'back_ditto.jpg'
+    }
+  };
+  
+  
+  print(pokemon);
+  
+  print('Name: ${ pokemon['name'] }');
+  print('Images: ${ pokemon['sprites'] }');
+  print('Front: ${ pokemon['sprites'][1] }');
+  print('Back: ${ pokemon['sprites'][2] }');
+  
+}
+```
