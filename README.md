@@ -68,3 +68,10 @@ void main() {
   """);
 }
 ```
+
+
+#### `11. Dynamic type`
+Se debe evitar usar el tipo dinamico, pero se debe encontrar un balance para utilizar algunas veces.
+Por defecto es null.
+el nullsafety es dart diciendo si una variable puede ser nula o no.
+
