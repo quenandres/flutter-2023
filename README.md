@@ -100,3 +100,10 @@ void main() {
   
 }
 ```
+
+
+#### `13. List, iterables y Sets`
+
+Listado: `[]`
+Iterable: `()` Es una colección de elementos que se puede leer de manera secuencial. Es un objeto que puede contar elementos que se encuentren dentro de él, como listas, sets, arreglos, etc.
+Set: `{}` Similar a los mapas, pero solo tiene datos que no son duplicados.
