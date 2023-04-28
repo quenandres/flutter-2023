@@ -144,3 +144,27 @@ String greetPerson( { required String name, String message = 'Hola' } ) {
   return '$message, $name';
 }
 ```
+
+
+#### `16. Clases`
+
+Son la representactión digital de los objetos en el mundo real.
+En dart el constructor tiene el mismo nombre de la clase.
+
+```dart
+void main() {
+  final Hero wolverine = Hero('Wolverine','Regeneración');
+  print( wolverine );
+  print( wolverine.name );
+  print( wolverine.power );
+}
+
+class Hero {
+  String name;
+  String power;
+  
+  Hero(this.name, this.power);
+}
+```
+
+
