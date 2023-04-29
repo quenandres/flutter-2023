@@ -167,4 +167,31 @@ class Hero {
 }
 ```
 
+#### `17. @override`
+_@override_ nos permite sobreescribir metodos de una clase para darle nuestro propia funcionalidad especifica a este metodo.
+
+```dart
+void main() {
+  //final Hero wolverine = Hero( name: 'Wolverine', power: 'Regeneración');
+  final Hero wolverine = Hero( name: 'Wolverine');
+  print( wolverine ); // por default dart invoca toString().
+  print( wolverine.name );
+  print( wolverine.power );
+}
+
+class Hero {
+  String name;
+  String power;
+  
+  Hero({
+    required this.name, 
+    this.power = 'Sin poder'
+  });
+  
+  @override
+  String toString() {
+    return 'su nombre es: $name y su poder es: $power';
+  }
+}
+```
 
