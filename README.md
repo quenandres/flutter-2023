@@ -271,3 +271,13 @@ class Square {
   }
 }
 ```
+
+#### `20. Aserciones`
+Las aserciones dan la posibilidad de enviar un segundo parametro con un mensaje mas especifico de error.
+```dart
+NonNegativePoint(this.x, this.y)
+    : assert(x >= 0),
+      assert(y >= 0) {
+  print('Punto no negativo: ($x, $y)');
+}
+```
