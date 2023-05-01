@@ -15,7 +15,7 @@ class Hero {
 
 ///////////////////////////////////////////
 
-
+/*
 
 void main() {
   //final Hero wolverine = Hero( name: 'Wolverine', power: 'Regeneración');
@@ -39,3 +39,4 @@ class Hero {
     return 'su nombre es: $name y su poder es: $power';
   }
 }
+*/
