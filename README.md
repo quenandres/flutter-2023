@@ -281,3 +281,30 @@ NonNegativePoint(this.x, this.y)
   print('Punto no negativo: ($x, $y)');
 }
 ```
+
+#### `21. Clases abstractas y enumeraciones`
+Una clase abstracta no se puede instanciar por si misma, es usada para instanciar estructuras en otras clases.
+
+```dart
+void main() {
+  final windPlant = EnergyPlant();
+}
+
+enum PlantType { nuclear, wind, water }
+
+abstract class EnergyPlant {
+ double energyLeft;
+ PlantType type; // nuclear, wind, water
+  
+  EnergyPlant({
+    required this.energyLeft,
+    required this.type
+  });
+  
+  void consumeEnergy( double amount );
+  
+}
+```
+#### `22. Extends`
+Teniendo nuestro molde para plantas de energia continuamos con la explicación de extends.
+Se implementa la clase y se demuestra el funcionamiento del uso de la clase abstracta.
