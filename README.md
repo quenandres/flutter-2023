@@ -314,3 +314,10 @@ Cuando extendemos hacemos uso de la herencia.
 
 #### `23. Implements`
 Implementar es mas especifico, mientras que extender es mas general
+
+
+#### `24. Mixins`
+
+Es una implementación muy utilizada en Dart donde una clase tiene subclasses y estas subclasses tienen implementación en clases concretas
+
+<img width="450px" height="150px" src="./docs/mixins.jpg" />
