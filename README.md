@@ -308,3 +308,9 @@ abstract class EnergyPlant {
 #### `22. Extends`
 Teniendo nuestro molde para plantas de energia continuamos con la explicación de extends.
 Se implementa la clase y se demuestra el funcionamiento del uso de la clase abstracta.
+
+Cuando extendemos hacemos uso de la herencia.
+
+
+#### `23. Implements`
+Implementar es mas especifico, mientras que extender es mas general
