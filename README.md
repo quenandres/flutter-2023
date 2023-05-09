@@ -445,3 +445,21 @@ Stream<int> emitNumbers() {
   }).take(5); // Toma 5 emisiones 0 a 4
 }
 ```
+
+#### `30. async* y await`
+```dart
+void main() {
+  emitNumber().
+    listen((int value) {
+       print('stream value: $value');
+    });
+}
+
+Stream<int> emitNumber() async* {
+   final valuesToEmit = [1,2,3,4,5];
+   for(int i in valuesToEmit) {
+      await Future.delayed(const Duration(seconds: 1));
+      yield i;
+   }
+}  
+```
