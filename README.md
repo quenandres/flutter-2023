@@ -425,3 +425,23 @@ Future<String> httpGet( String url ) async {
   //return 'valor http';
 }
 ```
+#### `29. Streams`
+Los streams pueden ser retornados y usados como objetos, funciones o métodos, son un flujo de información que puede estar emitiendo valores periódicamente, una única vez, o nunca.
+Un ejemplo es cuando se utilizan plataformas de streaming, donde la barra de progreso es la totalidad y cada cuadro es una emision del stream.
+Los stream para que funcionen, deben ser escuchados.
+
+```dart
+void main() {
+  emitNumbers().listen((value) {
+    print('Stream value: $value');
+  });
+}
+
+Stream<int> emitNumbers() {
+  
+  return Stream.periodic( const Duration(seconds: 1), (value) {
+    //print('Desde periodic $value');
+    return value;
+  }).take(5); // Toma 5 emisiones 0 a 4
+}
+```
