@@ -376,3 +376,27 @@ pronto tendrás un valor. La promesa puede falla y hay
 que manejar la excepción. Los futures son un acuerdo
 de que en el futuro tendrás un valor para ser usado.
 
+
+
+#### `27. Async - Await`
+
+```dart
+ void main() async {
+   print("inicio");
+   try {
+    final value = await httpGet('hhhhhhhhhhhhhhhhh');
+    print(value);     
+   } catch(err) {
+     print('Tenemos un error $err');
+   }
+   print("fin");
+ }
+
+Future<String> httpGet( String url ) async {  
+  await Future.delayed( const Duration(seconds: 1) );
+  throw 'Error en la petición';
+  //return 'valor http';
+}
+```
+
+#### `28. Try, on, catch y finally`
