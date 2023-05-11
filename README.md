@@ -463,3 +463,26 @@ Stream<int> emitNumber() async* {
    }
 }  
 ```
+## `Sección 4 Flutter - Primero pasos`
+
+### Temas puntuales de la sección
+Esta sección crearemos nuestra primera aplicación real de Flutter, la que nos enseñará cosas como:
+
+- Stateful y Stateless Widgets
+- Scaffold
+- FloatingActionButtons
+- Column
+- Widgets personalizados
+- Constantes
+- MaterialApp
+- Introducción a Material Design 3
+- Color Schemes
+- AppBars y mucho más
+
+También pasaremos por la explicación de cada archivo y directorio principal de un proyecto de Flutter, ahora sí, es momento de empezar a crear nuestras primeras aplicaciones móviles.
+
+#### `49. Exposición - ¿Qué es Flutter?`
+Es un SDK portable - Open source framework - UI Widget Library.
+
+Crear aplicaciones compiladas de forma nativa, multi plataforma con un único código base.
+
