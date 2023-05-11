@@ -486,3 +486,26 @@ Es un SDK portable - Open source framework - UI Widget Library.
 
 Crear aplicaciones compiladas de forma nativa, multi plataforma con un único código base.
 
+#### `50. Hello World App - Explicación de cada archivo y directorio`
+
+_.dart_tool_: Es utilizada por dart, tiene configuraciones de los paquetes, no es normal manipularla.
+
+_.idea_: Intelij para el editor de codigo.
+
+_android_: Contiene la aplicación de android. Solo se usa para ciertas configuraciones especificas para el sistema operativo.
+
+_ios_: Proyecto de xcode
+
+_lib_: Todo el codigo fuente de flutter.
+
+_linux_: Aplicación de linux
+
+_macos_: Aplicación de MacOS
+
+_test_: Carpeta de pruebas.
+
+_web_: Carpeta de proyecto web.
+
+_windows_: Aplicación para correrla en windows.
+
+
