@@ -525,5 +525,6 @@ Implementa un diseño básico de material, y da las bases para colocar un menú 
 
 Al tener una pantalla que no cambie, es buena practica ponerla como una constante. Flutter construira muy rapido gracias a funcionamiento interior.
 
+#### `54. Estructura de directorios - Nueva Pantalla`
 
-
+Creamos primer pantalla extera e importamos la pantalla en el main.
