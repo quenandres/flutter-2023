@@ -520,6 +520,10 @@ _pubspec.yaml_: Es un archivo de configuración
 
 #### `52. Hola Mundo`
 
+#### `53. Scaffold y buenas practicas`
+Implementa un diseño básico de material, y da las bases para colocar un menú lateral, snack-bars, appbars, bottom sheets y más elementos.
+
+Al tener una pantalla que no cambie, es buena practica ponerla como una constante. Flutter construira muy rapido gracias a funcionamiento interior.
 
 
 
