@@ -508,4 +508,18 @@ _web_: Carpeta de proyecto web.
 
 _windows_: Aplicación para correrla en windows.
 
+_metada_: Archivo utilizado por flutter.
+
+_analysis-options_: Configura el analyser, y permite configurar el linter.
+
+_hello-world-app.iml_: Es utilizado por el IDE IntellJ
+
+_pubspec.lock_: Nos ayuda a darle seguimiento de dependencias del proyecto.
+
+_pubspec.yaml_: Es un archivo de configuración 
+
+#### `52. Hola Mundo`
+
+
+
 
