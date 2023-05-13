@@ -534,3 +534,21 @@ Definimos widgets contantes.
 
 #### `56. Material Design 3`
 Se define un Scheme de color para toda la aplicación.
+
+
+#### `57. Cambiar el estado de la aplicación`
+*StatefulWidget:*
+```dart
+class CounterScreen extends StatefulWidget {
+  const CounterScreen({super.key});
+  @override
+  State<CounterScreen> createState() => _CounterScreenState();
+}
+```
+
+```dart
+setState(() {
+  clickCounter++;
+});
+```
+Es utilizado para renderizar el widget.
