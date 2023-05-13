@@ -558,3 +558,8 @@ Condicional ternaria.
 ```dart
 Text('Cantidad de click${clickCounter == 1 ? '' : 's'}', style: const TextStyle(fontSize: 25))
 ```
+
+#### `59. AppBar y Acciones`
+En el AppBar la opción de leading, es para un solo icono a la izquierda.
+
+Mientras que la opción de options, recibe un array de widgets con diferentes funcionalidades.

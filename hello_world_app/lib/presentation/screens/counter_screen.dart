@@ -9,7 +9,6 @@ class CounterScreen extends StatefulWidget {
 class _CounterScreenState extends State<CounterScreen> {
 
   int clickCounter = 0;
-  String text_click = 'clicks';
 
   @override
   Widget build(BuildContext context) {
