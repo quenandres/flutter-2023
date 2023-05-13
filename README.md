@@ -552,3 +552,9 @@ setState(() {
 });
 ```
 Es utilizado para renderizar el widget.
+
+#### `58. Tarea - Cambiar la palabra clicks`
+Condicional ternaria.
+```dart
+Text('Cantidad de click${clickCounter == 1 ? '' : 's'}', style: const TextStyle(fontSize: 25))
+```
