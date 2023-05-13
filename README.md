@@ -563,3 +563,38 @@ Text('Cantidad de click${clickCounter == 1 ? '' : 's'}', style: const TextStyle(
 En el AppBar la opción de leading, es para un solo icono a la izquierda.
 
 Mientras que la opción de options, recibe un array de widgets con diferentes funcionalidades.
+
+
+#### `60. Widgets personalizados`
+
+
+#### `61. VoidCallback - Función como argumento`
+
+```dart
+CustomButtom( icon: Icons.exposure_minus_1),
+```
+
+```dart
+class CustomButtom extends StatelessWidget {
+
+  final IconData icon;
+  //final onPressed
+
+  const CustomButtom({
+    super.key, 
+    required this.icon,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return FloatingActionButton(
+      shape: const StadiumBorder(),
+      onPressed: () { },
+      child: Icon(icon),
+    );
+  }
+}
+```
+
+
+
