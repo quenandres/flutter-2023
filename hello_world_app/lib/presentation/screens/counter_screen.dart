@@ -5,8 +5,11 @@ class CounterScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
-        body: Center(
+    return Scaffold(
+        appBar: AppBar(
+          title: const Text('Counter screen'),
+        ),
+        body: const Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
@@ -15,7 +18,7 @@ class CounterScreen extends StatelessWidget {
             ],
           ),
         ),
-        floatingActionButton: FloatingActionButton(
+        floatingActionButton: const FloatingActionButton(
           onPressed: null,
           child: Icon(Icons.plus_one),
         ),

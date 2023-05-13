@@ -530,3 +530,7 @@ Al tener una pantalla que no cambie, es buena practica ponerla como una constant
 Creamos primer pantalla extera e importamos la pantalla en el main.
 
 #### `55. Contador - Cambia el estado de la aplicación`
+Definimos widgets contantes.
+
+#### `56. Material Design 3`
+Se define un Scheme de color para toda la aplicación.
