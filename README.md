@@ -567,9 +567,6 @@ Mientras que la opción de options, recibe un array de widgets con diferentes fu
 
 #### `60. Widgets personalizados`
 
-
-#### `61. VoidCallback - Función como argumento`
-
 ```dart
 CustomButtom( icon: Icons.exposure_minus_1),
 ```
@@ -595,6 +592,23 @@ class CustomButtom extends StatelessWidget {
   }
 }
 ```
+#### `61. VoidCallback - Función como argumento`
+```dart
+CustomButtom( icon: Icons.plus_one_rounded, 
+onPressed: () {
+  setState(() {
+    clickCounter++;
+  });
+}),
+```
+
+#### `65. Inicio de App - YesNo App`
 
 
-
+#### `66. Estilo global para la aplicación`
+```dart
+import 'package:yes_no_app/config/theme/app_theme.dart';
+...
+theme: AppTheme( selectedColor: 1 ).theme(),
+...
+```
