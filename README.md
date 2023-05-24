@@ -626,3 +626,6 @@ ListView.builder(
   },
 )
 ```
+
+#### `69. Mis Mensajes - Burbuja de chat`
+Implementamos el tema en el widget del mensaje.
