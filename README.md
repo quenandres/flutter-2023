@@ -612,3 +612,17 @@ import 'package:yes_no_app/config/theme/app_theme.dart';
 theme: AppTheme( selectedColor: 1 ).theme(),
 ...
 ```
+
+
+#### `67. Chat Screen`
+Definición de una imagen y CircleAvatar para imagen en la parte principal de la pantalla.
+
+#### `68. ListView - área de los mensajes`
+```dart
+ListView.builder(
+  itemCount: 100,
+  itemBuilder: (BuildContext context, int index) { 
+    return Text('indice: $index');
+  },
+)
+```
