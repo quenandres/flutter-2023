@@ -629,3 +629,9 @@ ListView.builder(
 
 #### `69. Mis Mensajes - Burbuja de chat`
 Implementamos el tema en el widget del mensaje.
+
+#### `70. Mensajes de ella - Burbuja de chat`
+
+
+#### `71. Mostrar mensaje mientras se carga la imagen`
+
