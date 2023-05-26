@@ -692,3 +692,23 @@ class Message {
 
 #### `79. Provider - Gestor de estado`
 Creamos una clase para conectarla al proyecto y que sea la encargada de manejar los mensajes.
+```bash
+flutter pub add provider
+```
+```dart
+Widget build(BuildContext context) {
+  return MultiProvider(
+    providers: [
+      ChangeNotifierProvider(create: (_) => ChatProvider())
+    ],
+    child: MaterialApp(
+      debugShowCheckedModeBanner: false,
+      theme: AppTheme( selectedColor: 3 ).theme(),
+      title: 'Yes/No APP',
+      home: const ChatScreen(),
+    ),
+  );
+}
+```
+
+El provider crear un arbol con todos los widget que estan dentro del provider.
