@@ -712,3 +712,9 @@ Widget build(BuildContext context) {
 ```
 
 El provider crear un arbol con todos los widget que estan dentro del provider.
+
+#### `81. Mostrar los mensajes del provider`
+
+`context.watch<T>()`, Indica atención en provider especifico o en el primero que encuentre.
+`context.read<T>()`, Esta pendiente del provider especificado y lo lee.
+`context.select<T, R>(R cb(T value))`, Seleccion especifica dentro del provider.
