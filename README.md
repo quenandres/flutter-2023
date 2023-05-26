@@ -650,3 +650,42 @@ return TextFormField(
 
 
 #### `73. Comportamiento del FormField`
+Ponemos mas funcionalidad al input con el boton para atrapar los valores en una variable y para crear focus en el input.
+
+## `Sección 6 Yes No - Maybe App - Funcionalidad`
+
+### Temas puntuales de la sección
+
+En esta sección 6 nos enfocaremos en trabajar la lógica de negocio de nuestra aplicación, en pocas palabras haremos funcionar el diseño hecho en la sección aterior.
+
+Puntualmente veremos:
+
+- Gestores de estado
+- Mappers
+- Peticiones HTTP
+- Dio
+- Paquetes
+- Funciones que retornan valores como callbacks
+- Scroll
+- Provider
+- Y más cosas
+
+Al finalizar la sección tendremos una buena base de como alojar el estado fuera de los widgets y que los widgets se actualicen y tomen la información que necesitan del gestor de estado.
+
+#### `78. Entidad - Message`
+La unidad atomica es lo mas puro que va a necesitar la aplicación.
+```dart
+enum FromWho {mine, hers}
+
+class Message {
+  final String text;
+  final String? imageUrl;
+  final FromWho fromWho;
+
+  Message({
+    required this.text, 
+    this.imageUrl, 
+    required this.fromWho
+  });
+}
+```
