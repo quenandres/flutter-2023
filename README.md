@@ -721,3 +721,9 @@ El provider crear un arbol con todos los widget que estan dentro del provider.
 
 
 #### `82. Tarea - Argumentos al Widget`
+
+#### `83. Añadir mensajes al provider`
+#### `84. Mover el scroll al final`
+
+#### `85. Respuesta de YesNo - wtf`
+Instalamos DIO y lo ponemos en funcionamiento con la petición al api.
