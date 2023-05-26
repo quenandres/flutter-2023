@@ -689,3 +689,6 @@ class Message {
   });
 }
 ```
+
+#### `79. Provider - Gestor de estado`
+Creamos una clase para conectarla al proyecto y que sea la encargada de manejar los mensajes.
