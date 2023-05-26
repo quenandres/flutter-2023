@@ -635,3 +635,15 @@ Implementamos el tema en el widget del mensaje.
 
 #### `71. Mostrar mensaje mientras se carga la imagen`
 
+#### `72. TextFormField`
+```dart
+return TextFormField(
+  decoration: inputDecoration,
+  onFieldSubmitted: (value) {
+    print('submit $value');
+  },
+  onChanged: (value) {
+    print('onChange $value');
+  },
+);
+```
