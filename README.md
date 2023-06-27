@@ -727,3 +727,20 @@ El provider crear un arbol con todos los widget que estan dentro del provider.
 
 #### `85. Respuesta de YesNo - wtf`
 Instalamos DIO y lo ponemos en funcionamiento con la petición al api.
+
+#### `86. Mappers`
+
+
+#### `87. QuickType.io al rescate`
+Existe una extension o tambien por pagina web con diferentes parametros.
+#### `88. Tarea - Mensajes de ella`
+```dart
+// Si sabemos que el string no va a estar vacio
+_ImageBubble( imageUrl: message.imageUrl! )
+
+// De lo contrario
+_ImageBubble( imageUrl: message.imageUrl ?? 'https://...' )
+```
+
+
+
